@@ -2,8 +2,9 @@
 
 #### Java基础
 
-* 数据类型
-* Number类
+* [Hello World](https://github.com/ehian-alt/Java_learning/blob/main/Java_learning_record/Hello_World.md)
+* [数据类型](https://github.com/ehian-alt/Java_learning/blob/main/Java_learning_record/data_type.md)
+* [Number&Math类](https://github.com/ehian-alt/Java_learning/blob/main/Java_learning_record/Number_Math.md)
 * Character类
 * String类
 * Java数组
@@ -26,3 +27,5 @@
 * 泛型
 * 算法
 * 多线程编程
+
+部分内容转载自 [这里](https://www.w3cschool.cn/java/dict.html)
