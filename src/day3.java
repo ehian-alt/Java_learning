@@ -20,7 +20,7 @@ class Line implements Shape{
         System.out.println("Draw a Line");
     }
     public double Length(){
-        return Math.sqrt(Math.pow((p1.x-p2.x), 2) + Math.pow((p1.y-p2.y), 2));
+        return Math.sqrt((p1.x-p2.x)*(p1.x-p2.x) + (p1.y-p2.y)*(p1.y-p2.y));
     }
     public Line(Point p1, Point p2){
         this.p1 = p1;
@@ -34,8 +34,9 @@ class Triangle implements Shape{
         Line l1 = new Line(p1, p2);
         Line l2 = new Line(p1, p3);
         Line l3 = new Line(p2, p3);
+        System.out.println(l1.Length() + " " + l2.Length() + " " + l3.Length());
         double s = (l1.Length()+l2.Length()+l3.Length())/2;
-        return Math.sqrt((s-l1.Length())*(s-l2.Length())*(s-l3.Length()));
+        return Math.sqrt(s*(s-l1.Length())*(s-l2.Length())*(s-l3.Length()));
     }
     public Triangle(Point p1, Point p2, Point p3){
         this.p1 = p1;
@@ -75,21 +76,19 @@ class Circle implements Shape{
 
 }
 public class day3 {
-    static  Scanner sco = new Scanner(System.in);
     public static Point get_p(){
+        Scanner scan = new Scanner(System.in);
         int a, b;
         System.out.println("请输入坐标 用空格分割");
-        String s = sco.nextLine();
-        for (String tmp : s.split(" ")){
-            System.out.println(tmp);
-        }
+        String s = scan.nextLine();
         a = Integer.parseInt(s.split(" ")[0]);
         b = Integer.parseInt(s.split(" ")[1]);
         return new Point(a, b);
     }
     public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
         System.out.print("1:三角形\t2:圆\t3:四边形\n画个什么？:");
-        int sele = sco.nextInt();
+        int sele = scan.nextInt();
         switch (sele) {
             case 1 -> {
                 Triangle t = new Triangle(get_p(), get_p(), get_p());
@@ -97,7 +96,7 @@ public class day3 {
             }
             case 2 -> {
                 System.out.print("请输入圆的半径:");
-                int r = sco.nextInt();
+                int r = scan.nextInt();
                 Circle c = new Circle(get_p(), r);
                 System.out.printf("这个圆的面积为:%f", c.Area());
             }
