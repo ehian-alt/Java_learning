@@ -10,7 +10,7 @@ Number类是java.lang包下的一个抽象类，提供了将包装类型拆箱�
 
 ### *常用的Number类和Math类方法:*
 
->1: compareTo()
+**1: compareTo()**
 * 如果对象比参数大返回1，相等返回0，否则返回-1
 ```java
 public class Number_and_Math {
@@ -28,7 +28,7 @@ public class Number_and_Math {
     0
     -1
 
-> 2: equals()
+**2: equals()**
 * 判断对象是否与参数相等
 * 如果参数不为Null，并且参数的类型和值都相等返回true, 否则返回false
 ```java
@@ -56,7 +56,7 @@ public class Number_and_Math {
     false
     true
 
-> 3: valueOf 
+**3: valueOf**
 * 静态方法，有三种语法格式，对应三种参数形式
 
       static (object) valueOf(int i)
@@ -82,7 +82,7 @@ public class Number_and_Math {
     7.0
     1312
 
-> 4: toString()
+**4: toString()**
 * 以字符串形式返回值
 ```java
 public class Number_and_Math {
@@ -98,7 +98,7 @@ public class Number_and_Math {
     10
     6
 
-> 5: abs() 
+**5: abs()**
 * 返回参数的绝对值
 ```java
 public class Number_and_Math {
@@ -113,7 +113,7 @@ public class Number_and_Math {
     8.8
     9.9
 
-> 6: ceil()  floor()
+**6: ceil()  floor()**
 * ceil():返回大于等于参数的最小整数
 * floor():返回小于等于参数的最大整数
 * 返回值类型都是双精度型浮点数
@@ -136,7 +136,7 @@ public class Number_and_Math {
     -2.0
     1.0
 
-> 7: min() max()
+**7: min() max()**
 * 返回 ***两个参数*** 的最小值或最大值
 ```java
 public class Number_and_Math{
@@ -152,7 +152,7 @@ public class Number_and_Math{
     10
     5.0
 
-> 8: pow()  sqrt()
+**8: pow()  sqrt()**
 * pow(x, y): 返回x的y次方
 * sqrt(x): 返回x的平方根
 ```java
@@ -170,7 +170,7 @@ public class Number_and_Math{
     2的4次方结果为: 16.0
     4的平方根为: 2.0
 
-> 9: random()
+**9: random()**
 * 返回一个在0.0到1`(0.0<=Math.random()<1)`之间的随机实数
 ```java
 public class Number_and_Math{
