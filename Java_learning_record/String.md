@@ -182,3 +182,6 @@ public class String_ {
     l
     l
     o
+
+StringBuff类方法
+![img.png](img.png)
