@@ -13,11 +13,10 @@
 
 #### 进阶
 
-* 集合
-  * [ArrayList]()
-  * [LinkList]()
-  * [HashMap]()
-  * [HashSet]()
+* [ArrayList]()
+* [LinkList]()
+* [HashMap]()
+* [HashSet]()
 * [泛型]()
 * [算法]()
 * [多线程编程]()
