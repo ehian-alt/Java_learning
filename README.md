@@ -13,12 +13,13 @@
 
 #### 进阶
 
-* [ArrayList]()
-* [LinkList]()
-* [HashMap]()
-* [HashSet]()
-* [泛型]()
-* [算法]()
-* [多线程编程]()
+* [ArrayList](https://github.com/ehian-alt/Java_learning/blob/main/Java_learning_record/ArrayList.md)
+* [LinkList](https://github.com/ehian-alt/Java_learning/blob/main/Java_learning_record/LinkList.md)
+* [HashMap](https://github.com/ehian-alt/Java_learning/blob/main/Java_learning_record/HashMap.md)
+* [HashSet](https://github.com/ehian-alt/Java_learning/blob/main/Java_learning_record/HashSet.md)
+* [泛型](https://github.com/ehian-alt/Java_learning/blob/main/Java_learning_record/泛型.md)
+* jvm
+* xml
+* 并发/多线程
 
 部分内容转载自 [w3c](https://www.w3cschool.cn/java/dict.html) 和 [菜鸟教程](https://www.runoob.com/java/java-intro.html)

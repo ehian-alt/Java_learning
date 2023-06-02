@@ -1,3 +1,5 @@
+package days;
+
 import java.awt.*;
 import java.io.PrintStream;
 import java.util.Arrays;

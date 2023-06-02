@@ -1,3 +1,5 @@
+package exam;
+
 public class Character_ {
     public static void main(String[] args){
         Character ch = '\"';

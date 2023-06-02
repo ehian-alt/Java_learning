@@ -1,3 +1,5 @@
+package days;
+
 import java.util.Scanner;
 
 interface Shape{
@@ -17,7 +19,7 @@ class Line implements Shape{
     Ccolor color;
     Point p1, p2;
     public void Draw(){
-        System.out.println("Draw a Line");
+        System.out.println("Draw a days.Line");
     }
     public double Length(){
         return Math.sqrt((p1.x-p2.x)*(p1.x-p2.x) + (p1.y-p2.y)*(p1.y-p2.y));

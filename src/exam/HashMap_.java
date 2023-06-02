@@ -1,3 +1,5 @@
+package exam;
+
 import java.awt.desktop.SystemSleepEvent;
 import java.util.HashMap;
 

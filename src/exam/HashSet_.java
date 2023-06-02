@@ -1,3 +1,5 @@
+package exam;
+
 import java.util.HashSet;
 
 public class HashSet_ {

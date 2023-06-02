@@ -1,3 +1,5 @@
+package exam;
+
 import java.util.Arrays;
 
 public class Array_ {

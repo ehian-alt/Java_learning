@@ -1,3 +1,5 @@
+package days;
+
 public class day1 {
     public static void print_arr(int[] Arr){
         for (int i: Arr) {

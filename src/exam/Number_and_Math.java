@@ -1,3 +1,5 @@
+package exam;
+
 public class Number_and_Math {
     public static void main(String[] args){
         // compareTo
