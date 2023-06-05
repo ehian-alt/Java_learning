@@ -18,7 +18,7 @@
 #### 进阶
 
 * [泛型](https://github.com/ehian-alt/Java_learning/blob/main/Java_learning_record/泛型.md)
-* [jvm]()
+* JVM
   * [JVM类加载机制](https://github.com/ehian-alt/Java_learning/blob/8936079aa5efc45efbbd957813024566952f4eb3/Java_learning_record/jvm%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6.md)
   * [JVM内存结构](https://github.com/ehian-alt/Java_learning/blob/8936079aa5efc45efbbd957813024566952f4eb3/Java_learning_record/JVM内存结构.md)
   * [JVM垃圾回收](https://github.com/ehian-alt/Java_learning/blob/8936079aa5efc45efbbd957813024566952f4eb3/Java_learning_record/JVM垃圾回收.md)
